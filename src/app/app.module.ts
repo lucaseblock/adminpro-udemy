@@ -8,6 +8,11 @@ import { RegisterComponent } from './login/register.component';
 import { PagesModule } from './pages/pages.module';
 
 
+
+// temporal
+import { FormsModule } from '@angular/forms';
+
+
 //modulos
 
 
@@ -21,7 +26,8 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
